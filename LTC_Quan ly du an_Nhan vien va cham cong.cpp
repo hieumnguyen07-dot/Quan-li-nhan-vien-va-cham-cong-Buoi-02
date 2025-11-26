@@ -235,8 +235,8 @@ int main() {
             case 4: displayEmployees(emp, n); break;
             case 5: searchByName(emp, n); break;
             case 6: sortBySalary(emp, n); break;
-            case 7: timeKeeping(emp, n, ts, &tsCount); break;
-            case 8: viewTimeSheet(ts, tsCount); break;
+            //case 7: timeKeeping(emp, n, ts, &tsCount); break;
+            //case 8: viewTimeSheet(ts, tsCount); break;
             case 0: printf("Thoat...\n"); break;
             default: printf("Lua chon khong hop le!\n");
         }
@@ -245,3 +245,4 @@ int main() {
 
     return 0;
 }
+
